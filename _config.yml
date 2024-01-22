@@ -1,7 +1,7 @@
 # ----
 # Site
 
-title: 02806
+title: Project
 url: "https://chen-si-tong.github.io/"
 baseurl:
 google_analytics_key:
@@ -15,7 +15,7 @@ author:
   email:
   twitter: # twitter username without the @ symbol
 social:
-  name: 02806
+  name: Project
   links:
     - https://chen-si-tong.github.io/
 

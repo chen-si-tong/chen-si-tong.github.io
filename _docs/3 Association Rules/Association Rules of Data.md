@@ -1,7 +1,7 @@
 ---
 title: Association Rules of Data
 category: 3 Association Rules
-order: 1
+order: 3
 ---
 
 The aim of this part is to explore the association rules about Unintentional, which means according to the records in the dataset, find out which one attribute or several attributes can cause Unintentional. In other words, if we can know what can cause fire and the place that Unintentional happens more frequently, we can suggest people to be more care about these.
