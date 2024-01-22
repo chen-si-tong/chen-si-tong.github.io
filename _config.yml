@@ -2,7 +2,7 @@
 # Site
 
 title: 02806
-url: "https://Alpiexta.github.io/"
+url: "https://chen-si-tong.github.io/"
 baseurl:
 google_analytics_key:
 show_full_navigation: true
@@ -17,7 +17,7 @@ author:
 social:
   name: 02806
   links:
-    - https://Alpiexta.github.io/
+    - https://chen-si-tong.github.io/
 
 # -----
 # Build
