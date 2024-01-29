@@ -1,42 +1,48 @@
 ---
 title: Temporal Characteristics of Data
-category: 2 Temporal Characteristics 
+category: 2 Temporal Characteristics
 order: 2
 ---
 
-In order to understand better our data, we need to do more detailed analysis. We also put our attentions on the Northeast of city and to identify patterns and try to provide usefull recommendations.
-
-In the chart below we can see the distribution of the cases between the year in the Northeast of San Francisco. 
-
-As for the trend of year, we can find that there are the largest fire incidents from 2007 to 2013, and in this period, there is a decreasing trend in the number of fire incidents. However, the amount of fire incidents decreases sharply in 2014
-
-We find the news to explain :
-
-  [San Francisco Fire Department Asks For Another $4M In Overtime Pay](https://www.cbsnews.com/sanfrancisco/news/phil-matier-san-francisco-fire-department-asks-for-4m-more-for-overtime-pay/)
-  
-  [New SF Budget Allows For Hundreds More Police Officers, Firefighters](https://www.cbsnews.com/sanfrancisco/news/new-sf-budget-allows-for-hundreds-more-police-officers-firefighters/)
-
-
+In this chapter, we continue to focus on the northeast part of San Francisco, as it is the area with the highest occurrence of fire incidents. We are curious about the temporal patterns of the fire incidents in such a high frequency of fire events, such as changes in fire incidents over the years and months. We hope to identify patterns by analyzing the temporal aspect of the fire incidents. The following picture shows that the amount of the fire incidents in different years (from 2003 to 2017). 
+ 
 <embed 
        type="text/html" 
        src="/images/new_year.html"
        width="800"
        height="600"
-       >
+       >    
 
+In this picture, we can find that there are the largest fire incidents from 2007 to 2013, and in this period, there is a decreasing trend in the number of fire incidents. However, the amount of fire incidents decreases sharply in 2014. We looked through the news and lectures and found some reasons to interpret it. We find that the loss of 400 firefighters from 2003 to 2013 has led to mandatory overtime to keep stations fully staffed, and in 2013 due to [New Budget](https://www.cbsnews.com/sanfrancisco/news/new-sf-budget-allows-for-hundreds-more-police-officers-firefighters/) SF hired hundreds more firefighters. 
 
+This is the good news! Indeed, The increases of the amount of firefighters lead to an active influence on decreasing the fire incidents.
 
-In this picture, we find that fire incidents in January and December are more frequent than in others. Why did the situation happen? We suspect that because the period from December to January is winter, and the weather in winter is cold, people use more heater than before.
+The following picture shows that the amount of the fire incident in different months. 
+
 <embed 
        type="text/html" 
        src="/images/month_render.html"
        width="800"
        height="600"
-       >
-         
+       >    
 
-We have already talked about the pattern on months. It is also important to figure out whether there are any patterns in week days and hours as well. In the visualization below, we can see the different patterns that take place during the different hours of every week day.
-We can clearly see that the majority of incidents happen late in the evening. Sunday seem to the week day with the majority of cases.
+In this picture, we find that fire incidents in January and December are more frequent than in others. Why did the situation happen? We suspect that because the period from December to January is winter, and the weather in winter is cold, people use more heater than before.
+Next pictures show that the occurrence of fires incidents varies by hour and day of the week.
+
+<embed 
+       type="text/html" 
+       src="/images/Hour_render.html"
+       width="800"
+       height="600"
+       >    
+<embed 
+       type="text/html" 
+       src="/images/Week_render.html"
+       width="800"
+       height="600"
+       >   
+
+In the first picture(fires incidents divided by hour), we can discover the the periods that 5 am - 6 am and the 8 pm – 9 pm are the impressive timeslots. There is the smallest amount of fire incidents at 6 am and there is the largest amount of fire incidents at around 8 pm. In the right picture, we can reveal that there is the largest amount of fire incidents on weekend. Let's break down the time in more detail！
 
 <embed 
        type="text/html" 
@@ -45,9 +51,11 @@ We can clearly see that the majority of incidents happen late in the evening. Su
        height="600"
        >   
 
-Finally, we have to identify the main ignition causes and try to categorize them. 
-‘Unintentional’ is the most important reason to cause fire. The city authorities have to apply measures to prevent human error. That can be achieved by providing educational courses both to schools and companies.
-It can also encourage people to take first aid classes, in order to be able to help in case of emergency.
+In  above picture, we can see more clearly. This picture uncovers that the number of fires occurring in each hour of the day, we draw the seven days i.e. week on the picture. We can dig that expect weekend, ***Monday*** is also a spotlight. The trend line of the fire incidents is almost same as the Sunday. It is a new discovery!!! It indicates that the reason causing the fire incidents is the same. This is also a point that worth exploring. (we do not dig it right now )
+
+Combing all the pictures, the reason is that people are much more active at around 8pm on the weekend especially Sunday and Monday than others, surging the amount of using household appliances or other things that lead to fire.(This is just a guess.)
+
+Now we just know fire incidents of distribution of time and space and reveal some reasons. However, there are so many kinds of fire incidents, we want to know that the fraction of every ignition cause. (Ignition Cause: Unintentional/ Intentional/ Cause undetermined after investigation/ Failure of equipment or heat source/ Cause under investigation / Other /Act of nature)
 
 <embed 
        type="text/html" 
@@ -56,3 +64,6 @@ It can also encourage people to take first aid classes, in order to be able to h
        height="600"
        >    
        
+Look at the pictures, it is so amazing. ‘Unintentional’ is the most important reason to cause fire. If figure out that which reasons cause ‘Unintentional’, we can give our suggestions to avoid the fire incidents and damage of property.
+
+Let’s devote into the ‘Unintentional’.
